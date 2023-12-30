@@ -25,7 +25,7 @@
   },
   "include": [
     "src/package"
-  ],
+, "src/index.d.ts"  ],
   "exclude": [
      "node_modules"
   ]
