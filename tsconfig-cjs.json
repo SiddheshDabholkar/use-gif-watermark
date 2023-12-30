@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "outDir": "./lib/esm",
+    "outDir": "./lib/cjs",
     "lib": [
       "dom",
       "dom.iterable",
@@ -14,14 +14,14 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
     "jsx": "react-jsx",
     "declaration": true,
-  "typeRoots": ["index.d.ts","node_modules/@types","type.d.ts","useGIFwatermark.d.ts"]
+    "typeRoots": ["index.d.ts","node_modules/@types","type.d.ts","useGIFwatermark.d.ts"]
   },
   "include": [
     "src/package"
