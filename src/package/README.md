@@ -1,4 +1,4 @@
-# use-gif-watermarking
+# use-gif-watermark
 
 
 ### usage
@@ -7,18 +7,18 @@
 
 use yarn 
 ```
-yarn add use-gif-watermarking
+yarn add use-gif-watermark
 ```
 
 *or* use npm
 
 ```
-npm i use-gif-watermarking
+npm i use-gif-watermark
 ```
 
 ```
 import React, { useState } from "react";
-import useGifWatermark from 'use-gif-watermarking'
+import useGifWatermark from 'use-gif-watermark'
 
 function Example() {
   const [watermark, setWatermark] = useState(null);
