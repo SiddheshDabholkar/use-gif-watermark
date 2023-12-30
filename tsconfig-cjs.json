@@ -21,7 +21,7 @@
     "noEmit": false,
     "jsx": "react-jsx",
     "declaration": true,
-    "typeRoots": ["index.d.ts","node_modules/@types"]
+    "typeRoots": ["index.d.ts","node_modules/@types","type.d.ts","useGIFwatermark.d.ts"]
   },
   "include": [
     "src/package"
