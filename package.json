@@ -1,6 +1,6 @@
 {
   "name": "use-gif-watermark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
@@ -63,7 +63,7 @@
     "rimraf": "^5.0.5",
     "typescript": "^5.3.3"
   },
-  "peerDependencies":{
+  "peerDependencies": {
     "gifshot": "^0.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
