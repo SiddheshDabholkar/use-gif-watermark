@@ -1,6 +1,6 @@
 {
   "name": "use-gif-watermark",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
