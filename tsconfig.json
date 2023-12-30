@@ -24,8 +24,8 @@
   "typeRoots": ["index.d.ts","node_modules/@types","type.d.ts","useGIFwatermark.d.ts","gifshot.d.ts"]
   },
   "include": [
-    "src/package"
-, "src/package/index.d.ts"  ],
+    "src/package"  
+  ],
   "exclude": [
      "node_modules"
   ]
