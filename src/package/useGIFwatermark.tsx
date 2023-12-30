@@ -163,8 +163,6 @@ const useGifWatermark = ({
             setGifFile(file);
             if (downloadOnComplete && file) {
               downloadGif(file);
-            } else {
-              handleError("Something went wrong while downloading");
             }
             setStatus("converted");
             onSuccess && onSuccess({ base64: img, file });
