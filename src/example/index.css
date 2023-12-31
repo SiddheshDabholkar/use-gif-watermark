@@ -1,0 +1,105 @@
+html,
+body {
+  /* padding: 0;
+  margin: 0; */
+  background: #000;
+}
+
+h1,
+p {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+button {
+  padding: 8px 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+button[datatype="danger"] {
+  background: red;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+label {
+  font-size: 12px;
+  color: silver;
+}
+input,
+select {
+  margin: 5px;
+  width: 150px;
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.card {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2%;
+}
+
+#buttonLink {
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}

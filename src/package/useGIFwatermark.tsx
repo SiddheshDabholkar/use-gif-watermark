@@ -138,14 +138,7 @@ const useGifWatermark = ({
     };
     applyWatermark();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [
-    frames,
-    watermarkSrc,
-    position,
-    watermarkHeight,
-    watermarkWidth,
-    watermarkOpacity,
-  ]);
+  }, [frames, watermarkSrc]);
 
   useEffect(() => {
     if (watermarkedFrames.length > 0) {
