@@ -17,6 +17,7 @@ function Example() {
   const [watermark, setWatermark] = useState<Maybe<string>>(null);
   const [img, setImg] = useState<Maybe<string>>(null);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { base64, apply, download, gifFile, reset, status } = useGifWatermark({
     gifSrc: img,
     watermarkSrc: watermark,
